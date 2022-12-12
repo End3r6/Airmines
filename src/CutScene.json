@@ -1,0 +1,299 @@
+[
+    {
+        "id" : 0,
+        "title" : "Chapter 1: Tell a Story",
+        "song" : "tellAStory",
+        "data" : 
+        [
+            {
+                "id" : 0,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "Let me tell you a story",
+                    "about a girl",
+                    "her mother",
+                    "and a single red balloon"
+                ]
+            },
+            {
+                "id" : 1,
+                "image" : "C1-S2",
+                "dialogue" :
+                [
+                    "The little girl grew up fatherless",
+                    "Not wanting that to affect her",
+                    "Her mother tried to give her a normal life"
+                ]
+            },
+            {
+                "id" : 2,
+                "image" : "C1-S3",
+                "dialogue" :
+                [
+                    "They would go to the Zoo"
+                ]
+            },
+            {
+                "id" : 3,
+                "image" : "C1-S4",
+                "dialogue" :
+                [
+                    "The Park"
+                ]
+            },
+            {
+                "id" : 4,
+                "image" : "C1-S5",
+                "dialogue" :
+                [
+                    "Or the ice cream shop",
+                    "this was the little girl's favorite one"
+                ]
+            },
+            {
+                "id" : 5,
+                "image" : "C1-S6",
+                "dialogue" :
+                [
+                    "there was always a balloon man outside the shop",
+                    "The little girl would beg for a red balloon",
+                    "Her mother would never say no to this"
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 1,
+        "title" : "Chapter 2: The Balloon",
+        "song" : "theBalloon",
+        "data" : 
+        [
+            {
+                "id" : 0,
+                "image" : "C2-S1",
+                "dialogue" :
+                [
+                    "One day",
+                    "While the little girl and her mother were eating ice cream"
+                ]
+            },
+            {
+                "id" : 1,
+                "image" : "C2-S2",
+                "dialogue" :
+                [
+                    "the little girl's red balloon slipped out of her hand",
+                    "Not wanting to loose it, she chased it"
+                ]
+            },
+            {
+                "id" : 2,
+                "image" : "C2-S3",
+                "dialogue" :
+                [
+                    "She was so focused on her balloon",
+                    "that she didn't notice a car speeding towards her",
+                    "Her mother leaped at her and pushed the little girl away",
+                    "She was safe"
+                ]
+            },
+            {
+                "id" : 3,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "Her mother however",
+                    "she wasn't so lucky"
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "title" : "Chapter 3: Air Mines",
+        "song" : "airMines",
+        "data" : 
+        [
+            {
+                "id" : 0,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "Now",
+                    "The world was at war, during this time"
+                ]
+            },
+            {
+                "id" : 1,
+                "image" : "C3-S2",
+                "dialogue" :
+                [
+                    "To prevent blimps from attacking the cities,",
+                    "The army filled the skies with air mines",
+                    "Air mines were balls covered in spikes"
+                ]
+            },
+            {
+                "id" : 3,
+                "image" : "C3-S3",
+                "dialogue" :
+                [
+                    "They would drift through the sky",
+                    "dutifully warding off attacking blimps"
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "title" : "Chapter 4: Lost",
+        "song" : "lost",
+        "data" : 
+        [
+            {
+                "id" : 0,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "After her mother died,",
+                    "the little girl got sent to an orphanage",
+                    "where she was ignored by all of the other children"
+                ]
+            },
+            {
+                "id" : 1,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "She didn't notice though",
+                    "She didn't notice much of anything"
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 4,
+        "title" : "Chapter 5: The tree",
+        "song" : "theTree",
+        "data" : 
+        [
+            {
+                "id" : 0,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "The little girl would spend her days sitting under a tree",
+                    "The tree where her mother and father were burried"
+                ]
+            },
+            {
+                "id" : 1,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "She would sit there all day"
+                ]
+            },
+            {
+                "id" : 2,
+                "image" : "C5-S1",
+                "dialogue" :
+                [
+                    "Sometimes she would cry"
+                ]
+            },
+            {
+                "id" : 3,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "Other times she would scream"
+                ]
+            },
+            {
+                "id" : 4,
+                "image" : "C5-S2",
+                "dialogue" :
+                [
+                    "Most of the time though,",
+                    "She would stare at her parents' graves",
+                    "and think about her red balloon",
+                    "How it was the last thing her mother gave her",
+                    "How it was her father's favorite color",
+                    "and how she lost it",
+                    "never to see it",
+                    "ever again..."
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 5,
+        "title" : "Chapter 6: The Return",
+        "song" : "theReturn",
+        "data" : 
+        [
+            {
+                "id" : 0,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "One day",
+                    "As the little girl was crying under the tree"
+                ]
+            },
+            {
+                "id" : 1,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "She heard a noise",
+                    "The noise came from the branches of the tree"
+                ]
+            },
+            {
+                "id" : 2,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "As she was looking through the branches",
+                    "She couldn't believe her eyes"
+                ]
+            },
+            {
+                "id" : 3,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "Stuck in the branches of the tree"
+                ]
+            },
+            {
+                "id" : 4,
+                "image" : "C6-S1",
+                "dialogue" :
+                [
+                    "Was the red balloon"
+                ]
+            },
+            {
+                "id" : 5,
+                "image" : "black",
+                "dialogue" :
+                [
+                    "She lept to get it down"
+                ]
+            },
+            {
+                "id" : 6,
+                "image" : "C6-S2",
+                "dialogue" :
+                [
+                    "and she hugged it",
+                    "She would never lose her red ballon ever again."
+                ]
+            }
+        ]
+    }
+]
