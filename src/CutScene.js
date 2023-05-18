@@ -1,10 +1,12 @@
 //Imports
-import cutScene from './CutScene.json' assert {type: 'json'};
+import cutScene from './json-files/CutScene.json' assert {type: 'json'};
 
 // import { game } from './main.js';
 import { currentLevel, setCurrentLevel } from './main.js';
 import { currentChapter, setCurrentChapter } from './main.js';
 import { mainMusic, setMainMusic } from './main.js';
+
+import { getChapterImages } from './main.js';
 
 
 class CutScene extends Phaser.Scene
@@ -25,29 +27,7 @@ class CutScene extends Phaser.Scene
 
         this.load.image('black', 'assets/images/black.png');
 
-        //Chapter 1
-        this.load.image('C1-S2', './assets/images/Chapter-1/AM_C1_S2.png');
-        this.load.image('C1-S3', './assets/images/Chapter-1/Am_C1_S3.png');
-        this.load.image('C1-S4', './assets/images/Chapter-1/Am_C1_S4.png');
-        this.load.image('C1-S5', './assets/images/Chapter-1/Am_C1_S5.png');
-        this.load.image('C1-S6', './assets/images/Chapter-1/Am_C1_S6.png');
-
-        //Chapter 2
-        this.load.image('C2-S1', './assets/images/Chapter-2/Am_C2_S1.png');
-        this.load.image('C2-S2', './assets/images/Chapter-2/Am_C2_S2.png');
-        this.load.image('C2-S3', './assets/images/Chapter-2/Am_C2_S3.png');
-
-        //Chapter 3
-        this.load.image('C3-S2', './assets/images/Chapter-3/Am_C3_S2.png');
-        this.load.image('C3-S3', './assets/images/Chapter-3/Am_C3_S3.png');
-
-        //Chapter 5
-        this.load.image('C5-S1', './assets/images/Chapter-5/Am_C5_S1.png');
-        this.load.image('C5-S2', './assets/images/Chapter-5/Am_C5_S2.png');
-
-        //Chapter 6
-        this.load.image('C6-S1', './assets/images/Chapter-6/Am_C6_S1.png');
-        this.load.image('C6-S2', './assets/images/Chapter-6/Am_C6_S2.png');
+        getChapterImages(this);
 
         this.load.bitmapFont('maytraWhite', './assets/fonts/khurasan/MaytraWhite.png', 'assets/fonts/khurasan/Maytra.xml');
 

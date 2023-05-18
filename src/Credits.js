@@ -1,5 +1,5 @@
 //Various Json Files
-import credits from './Credits.json' assert {type: 'json'};
+import credits from './json-files/Credits.json' assert {type: 'json'};
 
 // import { game } from './main.js';
 import { currentLevel, setCurrentLevel } from './main.js';

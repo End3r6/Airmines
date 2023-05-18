@@ -1,8 +1,9 @@
 //Various Json Files
-import levelFile from './levels.json' assert {type: 'json'};
+import levelFile from './json-files/levels.json' assert {type: 'json'};
 
 import { game, setGame } from './main.js';
 import { currentLevel, setCurrentLevel } from './main.js';
+import { getSprites, getScreenImages } from './main.js';
 // import { currentChapter } from './main.js';
 // import { mainMusic } from './main.js';
 
@@ -37,11 +38,11 @@ class Game extends Phaser.Scene
         //load all of the assets so I can use them throughout the game.
         this.load.image('balloon', 'assets/sprites/balloon.png', { frameWidth: 32, frameHeight: 48 });
         
-        this.load.image('default', './assets/sprites/default-airmine.png');
-        this.load.image('small', './assets/sprites/small-airmine.png');
-        this.load.image('static', './assets/sprites/static-airmine.png');
-        this.load.image('backgroundCloud', './assets/sprites/background-cloud.png');
-        this.load.image('fadeScreen', './assets/images/black.png');
+        getSprites(this);
+        getScreenImages(this);
+
+        // this.load.image('backgroundCloud', './assets/sprites/background-cloud.png');
+        // this.load.image('fadeScreen', './assets/images/black.png');
         
         this.load.bitmapFont('maytra', './assets/fonts/khurasan/Maytra.png', 'assets/fonts/khurasan/Maytra.xml');
         
@@ -51,10 +52,6 @@ class Game extends Phaser.Scene
 
     create()
     {
-        //make sure that the level editor UI is hidden
-        document.getElementById('levelName').hidden = true;
-        document.getElementById('levelID').hidden = true;
-
         //Set the game variables
         this.gameTimer = 20;
         this.countDownTimer = 3;

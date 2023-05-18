@@ -38,15 +38,15 @@ class LevelEditor extends Phaser.Scene
         //the level data
         this.levelData = this.add.group();
 
-        //the level editor UI
-        let nameInput = document.getElementById('levelName');
-        let extensionInput = document.getElementById('levelExtention');
-        let levelIDInput = document.getElementById('levelID');
+        // //the level editor UI
+        // let nameInput = document.getElementById('levelName');
+        // let extensionInput = document.getElementById('levelExtention');
+        // let levelIDInput = document.getElementById('levelID');
 
-        //show the level editor UI
-        nameInput.hidden = false;
-        extensionInput.hidden = false;
-        levelIDInput.hidden = false;
+        // //show the level editor UI
+        // nameInput.hidden = false;
+        // extensionInput.hidden = false;
+        // levelIDInput.hidden = false;
 
         //#region UI
             //#region Download Button
@@ -68,21 +68,21 @@ class LevelEditor extends Phaser.Scene
                 this.downloadButton.on('pointerup', () =>
                 {
                     //Data validation
-                    if(!isNaN(nameInput.value) || nameInput.value == null || nameInput.value == '')
-                    {
-                        return;
-                    }
-                    if(!isNaN(extensionInput.value) || extensionInput.value == null || extensionInput.value == '')
-                    {
-                        return;
-                    }
-                    if(isNaN(levelIDInput.value) || levelIDInput.value == null)
-                    {
-                        return;
-                    }
+                    // if(!isNaN(nameInput.value) || nameInput.value == null || nameInput.value == '')
+                    // {
+                    //     return;
+                    // }
+                    // if(!isNaN(extensionInput.value) || extensionInput.value == null || extensionInput.value == '')
+                    // {
+                    //     return;
+                    // }
+                    // if(isNaN(levelIDInput.value) || levelIDInput.value == null)
+                    // {
+                    //     return;
+                    // }
 
                     this.downloadButton.setScale(0.35);
-                    this.saveEditorData(nameInput.value, extensionInput.value, levelIDInput.value);
+                    this.saveEditorData("new-level", "json", "");
                 });
             //#endregion
                 
@@ -205,9 +205,9 @@ class LevelEditor extends Phaser.Scene
         //exit the level editor
         if(this.keyESC.isDown)
         {
-            document.getElementById('levelName').hidden = true;
-            document.getElementById('levelID').hidden = true;
-            document.getElementById('levelExtention').hidden = true;
+            // document.getElementById('levelName').hidden = true;
+            // document.getElementById('levelID').hidden = true;
+            // document.getElementById('levelExtention').hidden = true;
             
             this.scene.start('cutScene');
         }
@@ -240,7 +240,7 @@ class LevelEditor extends Phaser.Scene
         console.log(`Saving level ${id} to ${extension} file.`);
 
         //download the file that the data is written to
-        this.download(`${fileName}. ${extension}`, jsonData);
+        this.download(`${fileName}.${extension}`, jsonData);
     }
 
     download(fileName, data) 

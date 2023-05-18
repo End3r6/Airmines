@@ -1,0 +1,107 @@
+[
+    {
+        "group" : "sprites",
+
+        "assets" :
+        [
+            {
+                "id" : "default",
+                "path" : "./assets/sprites/default-airmine.png"
+            },
+            {
+                "id" : "small",
+                "path" : "./assets/sprites/small-airmine.png"
+            },
+            {
+                "id" : "static",
+                "path" : "./assets/sprites/static-airmine.png"
+            }
+        ]
+    },
+    {
+        "group" : "screen-images",
+
+        "assets" :
+        [
+            {
+                "id" : "backgroundCloud",
+                "path" : "./assets/sprites/background-cloud.png"
+            },
+            {
+                "id" : "fadeScreen",
+                "path" : "./assets/images/black.png"
+            }
+        ]
+    },
+    {
+        "group" : "chapter-images",
+
+        "assets" :
+        [
+            {
+                "id" : "black",
+                "path" : "assets/images/black.png"
+            },
+            {
+                "id" : "C1-S2",
+                "path" : "./assets/images/Chapter-1/AM_C1_S2.png"
+            },
+            {
+                "id" : "C1-S3",
+                "path" : "./assets/images/Chapter-1/Am_C1_S3.png"
+            },
+            {
+                "id" : "C1-S4",
+                "path" : "./assets/images/Chapter-1/Am_C1_S4.png"
+            },
+            {
+                "id" : "C1-S5",
+                "path" : "./assets/images/Chapter-1/Am_C1_S5.png"
+            },
+            {
+                "id" : "C1-S6",
+                "path" : "./assets/images/Chapter-1/Am_C1_S6.png"
+            },
+
+            {
+                "id" : "C2-S1",
+                "path" : "./assets/images/Chapter-2/Am_C2_S1.png"
+            },
+            {
+                "id" : "C2-S2",
+                "path" : "./assets/images/Chapter-2/Am_C2_S2.png"
+            },
+            {
+                "id" : "C2-S3",
+                "path" : "./assets/images/Chapter-2/Am_C2_S3.png"
+            },
+
+            {
+                "id" : "C3-S2",
+                "path" : "./assets/images/Chapter-3/Am_C3_S2.png"
+            },
+            {
+                "id" : "C3-S3",
+                "path" : "./assets/images/Chapter-3/Am_C3_S3.png"
+            },
+
+            {
+                "id" : "C5-S1",
+                "path" : "./assets/images/Chapter-5/Am_C5_S1.png"
+            },
+            {
+                "id" : "C5-S2",
+                "path" : "./assets/images/Chapter-5/Am_C5_S2.png"
+            },
+
+            {
+                "id" : "C6-S1",
+                "path" : "./assets/images/Chapter-6/Am_C6_S1.png"
+            },
+            {
+                "id" : "C6-S2",
+                "path" : "./assets/images/Chapter-6/Am_C6_S2.png"
+            }
+        ]
+    }
+]
