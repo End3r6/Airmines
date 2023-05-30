@@ -1,6 +1,4 @@
 
-import assetsData from './json-files/Assets.json' assert {type: 'json'};
-
 import CutScene from './CutScene.js';
 import Credits from './Credits.js';
 import Game from './Game.js';
@@ -30,43 +28,14 @@ function setMainMusic(music)
     mainMusic = music;
 }
 
-function getSprites(scene)
-{
-    assetsData[0].assets.forEach(token => 
-    {
-        scene.load.image(token.id, token.path);
-    });
-}
 
-function getScreenImages(scene)
-{
-    assetsData[1].assets.forEach(token => 
-    {
-        scene.load.image(token.id, token.path);
-    });
-}
-
-function getChapterImages(scene)
-{
-    assetsData[2].assets.forEach(token => 
-    {
-        scene.load.image(token.id, token.path);
-    });
-}
-
-export {game, setGame};
-export {currentLevel, setCurrentLevel};
-export {currentChapter, setCurrentChapter};
-export {mainMusic, setMainMusic};
-export {getSprites, getScreenImages, getChapterImages};
+export { game, setGame };
+export { currentLevel, setCurrentLevel };
+export { currentChapter, setCurrentChapter };
+export { mainMusic, setMainMusic };
 
 window.onload = function()
 {
-    //Hide Level Editor UI
-    // document.getElementById('levelName').hidden = true;
-    // document.getElementById('levelExtention').hidden = true;
-    // document.getElementById('levelID').hidden = true;
-    
     //Reset Key variables to proper numbers
     currentLevel = -1;
     currentChapter = 0;

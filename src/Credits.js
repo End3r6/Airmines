@@ -2,8 +2,8 @@
 import credits from './json-files/Credits.json' assert {type: 'json'};
 
 // import { game } from './main.js';
-import { currentLevel, setCurrentLevel } from './main.js';
-import { currentChapter, setCurrentChapter } from './main.js';
+import { setCurrentLevel } from './main.js';
+import { setCurrentChapter } from './main.js';
 import { mainMusic, setMainMusic } from './main.js';
 
 

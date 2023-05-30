@@ -6,7 +6,7 @@ import { currentLevel, setCurrentLevel } from './main.js';
 import { currentChapter, setCurrentChapter } from './main.js';
 import { mainMusic, setMainMusic } from './main.js';
 
-import { getChapterImages } from './main.js';
+import { getChapterImages, getMusic } from './Assets.js';
 
 
 class CutScene extends Phaser.Scene
@@ -28,15 +28,9 @@ class CutScene extends Phaser.Scene
         this.load.image('black', 'assets/images/black.png');
 
         getChapterImages(this);
+        getMusic(this);
 
         this.load.bitmapFont('maytraWhite', './assets/fonts/khurasan/MaytraWhite.png', 'assets/fonts/khurasan/Maytra.xml');
-
-        this.load.audio('tellAStory', './assets/sound/music/Ashot-Danielyan/tellAStory.mp3');
-        this.load.audio('theBalloon', './assets/sound/music/Musictown/TheBalloon.mp3');
-        this.load.audio('airMines', './assets/sound/music/SoulProdMusic/airMines.mp3');
-        this.load.audio('lost', './assets/sound/music/LesFM/lost.mp3');
-        this.load.audio('theTree', './assets/sound/music/JuliusH/theTree.mp3');
-        this.load.audio('theReturn', './assets/sound/music/LesFM/theReturn.mp3');
 
         this.load.audio('beginChapter', './assets/sound/sfx/SamuelFrancisJohnson/beginChapter.mp3');
 
@@ -233,11 +227,11 @@ class CutScene extends Phaser.Scene
 
         //open the level editor
         //#region Level Editor
-        this.input.keyboard.createCombo('LE05');
-        this.input.keyboard.on('keycombomatch', () => 
-        {
-            this.scene.start('editor');
-        });
+        // this.input.keyboard.createCombo('LE05');
+        // this.input.keyboard.on('keycombomatch', () => 
+        // {
+        //     this.scene.start('editor');
+        // });
         //#endregion
     }
 
@@ -246,11 +240,6 @@ class CutScene extends Phaser.Scene
         //skip scene button condition
         if(this.skipScene.isDown)
         {
-            if(mainMusic.volume > 0)
-            {
-                this.game.sound.stopAll();
-            }
-
             this.endScene();
         }
     }

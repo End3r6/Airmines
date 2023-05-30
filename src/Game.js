@@ -3,7 +3,7 @@ import levelFile from './json-files/levels.json' assert {type: 'json'};
 
 import { game, setGame } from './main.js';
 import { currentLevel, setCurrentLevel } from './main.js';
-import { getSprites, getScreenImages } from './main.js';
+import { getSprites, getScreenImages } from './Assets.js';
 // import { currentChapter } from './main.js';
 // import { mainMusic } from './main.js';
 
@@ -24,25 +24,11 @@ class Game extends Phaser.Scene
 
     preload()
     {
-        //#region Plugins
-
-        //UI
-        // this.load.scenePlugin
-        // ({
-        //     key: 'rexuiplugin',
-        //     url: 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexuiplugin.min.js',
-        //     sceneKey: 'rexUI'
-        // });
-        //#endregion
-
         //load all of the assets so I can use them throughout the game.
         this.load.image('balloon', 'assets/sprites/balloon.png', { frameWidth: 32, frameHeight: 48 });
         
         getSprites(this);
         getScreenImages(this);
-
-        // this.load.image('backgroundCloud', './assets/sprites/background-cloud.png');
-        // this.load.image('fadeScreen', './assets/images/black.png');
         
         this.load.bitmapFont('maytra', './assets/fonts/khurasan/Maytra.png', 'assets/fonts/khurasan/Maytra.xml');
         
@@ -225,11 +211,11 @@ class Game extends Phaser.Scene
 
         //the code to open the level editor
         //#region Level Editor
-        this.input.keyboard.createCombo('LE05');
-        this.input.keyboard.on('keycombomatch', () => 
-        {
-            this.scene.start('editor');
-        });
+        // this.input.keyboard.createCombo('LE05');
+        // this.input.keyboard.on('keycombomatch', () => 
+        // {
+        //     this.scene.start('editor');
+        // });
 
         //#endregion
     }
