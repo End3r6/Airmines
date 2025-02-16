@@ -1,11 +1,16 @@
 //Various Json Files
-import credits from './json-files/Credits.json' assert {type: 'json'};
+// import credits from './json-files/Credits.json' assert {type: 'json'};
+
 
 // import { game } from './main.js';
 import { setCurrentLevel } from './main.js';
 import { setCurrentChapter } from './main.js';
 import { mainMusic, setMainMusic } from './main.js';
 
+import { loadData } from './Common.js';
+
+let credits;
+loadData('./src/json-files/Credits.json').then(data => credits = data);
 
 class Credits extends Phaser.Scene
 {

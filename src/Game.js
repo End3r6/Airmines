@@ -1,12 +1,16 @@
 //Various Json Files
-import levelFile from './json-files/levels.json' assert {type: 'json'};
+// import levelFile from './json-files/levels.json' with {type: 'json'};
+
 
 import { game, setGame } from './main.js';
 import { currentLevel, setCurrentLevel } from './main.js';
 import { getSprites, getScreenImages } from './Assets.js';
+import { loadData } from './Common.js';
 // import { currentChapter } from './main.js';
 // import { mainMusic } from './main.js';
 
+let levelFile;
+loadData('./src/json-files/levels.json').then(data => levelFile = data);
 
 
 class Game extends Phaser.Scene

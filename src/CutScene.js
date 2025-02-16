@@ -1,5 +1,12 @@
 //Imports
-import cutScene from './json-files/CutScene.json' assert {type: 'json'};
+// import cutScene from './json-files/CutScene.json' assert {type: 'json'};
+
+import { loadData } from './Common.js';
+
+let cutScene;
+
+loadData('./src/json-files/CutScene.json').then(data => cutScene = data);
+
 
 // import { game } from './main.js';
 import { currentLevel, setCurrentLevel } from './main.js';

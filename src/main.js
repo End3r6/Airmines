@@ -4,6 +4,7 @@ import Credits from './Credits.js';
 import Game from './Game.js';
 import LevelEditor from './LevelEditor.js';
 
+console.log('main.js loaded');
 
 //Global Variables
 let game;
@@ -34,8 +35,8 @@ export { currentLevel, setCurrentLevel };
 export { currentChapter, setCurrentChapter };
 export { mainMusic, setMainMusic };
 
-window.onload = function()
-{
+
+window.onload = () => {
     //Reset Key variables to proper numbers
     currentLevel = -1;
     currentChapter = 0;
