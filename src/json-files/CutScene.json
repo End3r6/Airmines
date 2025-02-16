@@ -10,10 +10,10 @@
                 "image" : "black",
                 "dialogue" :
                 [
-                    "Let me tell you a story",
-                    "about a girl",
-                    "her mother",
-                    "and a single red balloon"
+                    "Let me tell you a story...",
+                    "about a girl,",
+                    "her mother,",
+                    "and a single red balloon."
                 ]
             },
             {
@@ -21,9 +21,9 @@
                 "image" : "C1-S2",
                 "dialogue" :
                 [
-                    "The little girl grew up fatherless",
-                    "Not wanting that to affect her",
-                    "Her mother tried to give her a normal life"
+                    "The little girl grew up fatherless.",
+                    "Not wanting that to affect her,",
+                    "Her mother tried to give her a normal life."
                 ]
             },
             {
@@ -31,7 +31,7 @@
                 "image" : "C1-S3",
                 "dialogue" :
                 [
-                    "They would go to the Zoo"
+                    "They would go to the Zoo..."
                 ]
             },
             {
@@ -39,7 +39,7 @@
                 "image" : "C1-S4",
                 "dialogue" :
                 [
-                    "The Park"
+                    "The Park..."
                 ]
             },
             {
@@ -47,8 +47,8 @@
                 "image" : "C1-S5",
                 "dialogue" :
                 [
-                    "Or the ice cream shop",
-                    "this was the little girl's favorite one"
+                    "Or the ice cream shop...",
+                    "This was the little girl's favorite one."
                 ]
             },
             {
@@ -56,9 +56,9 @@
                 "image" : "C1-S6",
                 "dialogue" :
                 [
-                    "there was always a balloon man outside the shop",
-                    "The little girl would beg for a red balloon",
-                    "Her mother would never say no to this"
+                    "there was always a balloon man outside the shop.",
+                    "The little girl would beg for a red balloon,",
+                    "Her mother would never say no to this..."
                 ]
             }
         ]
@@ -74,8 +74,8 @@
                 "image" : "C2-S1",
                 "dialogue" :
                 [
-                    "One day",
-                    "While the little girl and her mother were eating ice cream"
+                    "One day,",
+                    "While the little girl and her mother were eating ice cream..."
                 ]
             },
             {
@@ -83,8 +83,8 @@
                 "image" : "C2-S2",
                 "dialogue" :
                 [
-                    "the little girl's red balloon slipped out of her hand",
-                    "Not wanting to loose it, she chased it"
+                    "The little girl's red balloon slipped out of her hand!",
+                    "Not wanting to loose it, she chased it."
                 ]
             },
             {
@@ -92,10 +92,11 @@
                 "image" : "C2-S3",
                 "dialogue" :
                 [
-                    "She was so focused on her balloon",
-                    "that she didn't notice a car speeding towards her",
-                    "Her mother leaped at her and pushed the little girl away",
-                    "She was safe"
+                    "She was so focused on her balloon...",
+                    "So focused on the single string... barely out of reach,",
+                    "that she didn't notice a car speeding towards her.",
+                    "Her mother leaped at her and pushed the little girl away!",
+                    "She was safe..."
                 ]
             },
             {
@@ -103,8 +104,8 @@
                 "image" : "black",
                 "dialogue" :
                 [
-                    "Her mother however",
-                    "she wasn't so lucky"
+                    "Her mother however...",
+                    "she wasn't so lucky..."
                 ]
             }
         ]
@@ -120,8 +121,8 @@
                 "image" : "black",
                 "dialogue" :
                 [
-                    "Now",
-                    "The world was at war, during this time"
+                    "Now,",
+                    "The world was at war, during this time."
                 ]
             },
             {
@@ -130,8 +131,8 @@
                 "dialogue" :
                 [
                     "To prevent blimps from attacking the cities,",
-                    "The army filled the skies with air mines",
-                    "Air mines were balls covered in spikes"
+                    "The army filled the skies with air mines,",
+                    "explosive balls covered in spikes"
                 ]
             },
             {
@@ -139,8 +140,8 @@
                 "image" : "C3-S3",
                 "dialogue" :
                 [
-                    "They would drift through the sky",
-                    "dutifully warding off attacking blimps"
+                    "They would drift through the sky...",
+                    "dutifully warding off attacking blimps."
                 ]
             }
         ]
@@ -158,7 +159,7 @@
                 [
                     "After her mother died,",
                     "the little girl got sent to an orphanage",
-                    "where she was ignored by all of the other children"
+                    "where she was ignored by all of the other children."
                 ]
             },
             {
@@ -166,8 +167,8 @@
                 "image" : "black",
                 "dialogue" :
                 [
-                    "She didn't notice though",
-                    "She didn't notice much of anything"
+                    "She didn't notice though...",
+                    "She didn't notice much of anything..."
                 ]
             }
         ]
@@ -183,8 +184,8 @@
                 "image" : "black",
                 "dialogue" :
                 [
-                    "The little girl would spend her days sitting under a tree",
-                    "The tree where her mother and father were burried"
+                    "The little girl would spend her days sitting under a tree.",
+                    "The tree where her mother and father were burried..."
                 ]
             },
             {
@@ -192,7 +193,7 @@
                 "image" : "black",
                 "dialogue" :
                 [
-                    "She would sit there all day"
+                    "She would sit there all day..."
                 ]
             },
             {
@@ -200,7 +201,7 @@
                 "image" : "C5-S1",
                 "dialogue" :
                 [
-                    "Sometimes she would cry"
+                    "Sometimes she would cry..."
                 ]
             },
             {
@@ -208,7 +209,7 @@
                 "image" : "black",
                 "dialogue" :
                 [
-                    "Other times she would scream"
+                    "Other times she would scream..."
                 ]
             },
             {
@@ -218,11 +219,11 @@
                 [
                     "Most of the time though,",
                     "She would stare at her parents' graves",
-                    "and think about her red balloon",
-                    "How it was the last thing her mother gave her",
-                    "How it was her father's favorite color",
-                    "and how she lost it",
-                    "never to see it",
+                    "and think about her red balloon...",
+                    "How it was the last thing her mother gave her...",
+                    "How it was her father's favorite color...",
+                    "and how she lost it.",
+                    "never to see it...",
                     "ever again..."
                 ]
             }
@@ -239,8 +240,8 @@
                 "image" : "black",
                 "dialogue" :
                 [
-                    "One day",
-                    "As the little girl was crying under the tree"
+                    "One day,",
+                    "As the little girl was crying under the tree."
                 ]
             },
             {
@@ -248,8 +249,8 @@
                 "image" : "black",
                 "dialogue" :
                 [
-                    "She heard a noise",
-                    "The noise came from the branches of the tree"
+                    "She heard a noise.",
+                    "The noise came from the branches of the tree..."
                 ]
             },
             {
@@ -257,8 +258,8 @@
                 "image" : "black",
                 "dialogue" :
                 [
-                    "As she was looking through the branches",
-                    "She couldn't believe her eyes"
+                    "She peered up, looking through the branches...",
+                    "She couldn't believe her eyes."
                 ]
             },
             {
@@ -266,7 +267,7 @@
                 "image" : "black",
                 "dialogue" :
                 [
-                    "Stuck in the branches of the tree"
+                    "Stuck in the branches of the tree..."
                 ]
             },
             {
@@ -274,7 +275,7 @@
                 "image" : "C6-S1",
                 "dialogue" :
                 [
-                    "Was the red balloon"
+                    "Was the red balloon."
                 ]
             },
             {
@@ -282,7 +283,7 @@
                 "image" : "black",
                 "dialogue" :
                 [
-                    "She lept to get it down"
+                    "She lept to get it down."
                 ]
             },
             {
@@ -290,7 +291,7 @@
                 "image" : "C6-S2",
                 "dialogue" :
                 [
-                    "and she hugged it",
+                    "and she hugged it.",
                     "She would never lose her red ballon ever again."
                 ]
             }
